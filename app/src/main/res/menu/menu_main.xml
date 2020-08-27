@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.altimetrictest.ui.tracks_screen.MainActivity">
+
+    <item
+        android:id="@+id/appSearchBar"
+        android:title="Search"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_search"/>
+
+    <item
+        android:id="@+id/menuCollectionName"
+        app:showAsAction="never"
+        android:title="collectionName" />
+
+    <item
+        android:id="@+id/menuTrackName"
+        app:showAsAction="never"
+        android:title="trackName" />
+
+    <item
+        android:id="@+id/menuArtistname"
+        app:showAsAction="never"
+        android:title="ArtistName" />
+    <item
+        android:id="@+id/menuCollectionPrice"
+        app:showAsAction="never"
+        android:title="collectionPrice" />
+
+</menu>
